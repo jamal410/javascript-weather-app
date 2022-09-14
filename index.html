@@ -30,18 +30,37 @@
         margin: 15px;
         margin: 15px;
     }
-
+    #header{
+        align-items: center;
+        display: flex;
+        margin-left: 40% ;
+        
+    }
+#main1 {
+    align-items: center;
+        display: flex;
+        margin-left: 40% ;
+}
+#main2 {
+    align-items: center;
+        display: flex;
+        margin-left: 40% ;
+}
+body{
+    background-image: url();
+}
 </style>
-<body  bgcolor="#FFC312">
+<body>
+    
 </head>
 
-    <h1>Jamal's weather app</h1> 
+     <div id ="header"></header>  <h1>Jamal's weather app</h1> </div>
     
     
     <form onsubmit="submitFunction(); return false">
-        City Name: <input type="text" id="cityName" required>
+     <div id="main1">   City Name: <input type="text" id="cityName" required> </div>
 <br>
-<button>search weather</button>
+<button id="main2">search weather</button>
 </form>
 
 <div id="current"></div>
